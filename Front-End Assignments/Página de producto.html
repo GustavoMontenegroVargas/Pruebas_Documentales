@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "Producto.css">
+    <title>Página del producto</title>
+</head>
+
+<body>
+    <header> <!-- Barra de navegación con barra de búsqueda -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#">Hidden brand</a>
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+
+    <div class = "container"> <!-- Container para centrar los elementos con un margen fijo. -->
+
+        <div class = "row" style="height:40px;"></div><!-- Separación de secciones de 40px-->
+
+        <div class = "row"> <!-- Inicio de sección de imágen principal y descripción -->
+
+            <div class = "col-lg-9"> <!-- Inicios de sección de imágen principal y de ángulos -->
+
+                <div class= "row " style="height: 300px;" > <!-- Sección de imágen principal del producto -->
+
+                  <!-- Carrusel -->
+
+<!--                   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block img1 border border-dark rounded" src="assets/images/im1.jpeg" alt="First slide" >
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block img1 border border-dark rounded" src="assets/images/im2.jpeg" alt="Second slide" >
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block img1  border border-dark rounded" src="assets/images/im3.jpeg" alt="Third slide">
+                      </div>
+                    </div>
+                  </div> -->
+
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block img1 border border-dark rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block img1 border border-dark rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block img1 border border-dark rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+                  <!-- Fin del Carrusel -->
+
+                </div> <!-- Fin sección de imágen principal del producto -->
+
+                <div class= "row" style="height: 20px;" ></div> <!-- Separación de secciones de 20px -->
+
+                <div class= "row " style="height: 80px;" > <!-- Sección de ángulos y control mediante imágenes -->
+                  <a href="#carouselExampleControls" role="button" data-slide-to="0">
+                    <img class="d-block border border-dark rounded img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="First slide" >
+                  </a>
+                  <a href="#carouselExampleControls" role="button" data-slide-to="1">
+                    <img class="d-block border border-dark rounded img2 marginL" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Second slide" >
+                  </a>
+                  <a href="#carouselExampleControls" role="button" data-slide-to="2">
+                    <img class="d-block border border-dark rounded img2 marginL" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Third slide" >
+                  </a>
+                 
+                
+                 
+                </div><!-- Fin sección de ángulos -->
+
+
+            </div> <!-- Fin de sección de imágen principal y ángulos -->
+<!-- 
+            <div class = "col-lg-1 cont1">
+
+
+            </div> -->
+
+            <div class = "col-lg-3 "> <!-- Inicio de la sección de descripción -->
+              
+              <div class="card" style="width: 17rem;"><!-- Inicio de la tarjeta -->
+          
+                <div class="card-body" style="height: 400px;">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary ">Buy</a>
+                </div>
+
+              </div><!-- Fin de la tarjeta -->
+
+            </div> <!-- Fin de la sección de descripción -->
+
+        </div> <!-- Fin de la sección de la imagen principal y descripción -->
+
+        <div class = "row" style="height: 20px;"><!-- Seperación de secciones de 20px --> </div>
+        <div class = "row" style="height: 20px;"> <h4>Productos similares</h4> </div>
+        <div class = "row" style="height: 40px;"><!-- Seperación de secciones de 40px --> </div>
+
+        <div class = "row" style="height: 100px;"><!-- Sección de productos similares -->
+
+          <div class="card" style="width: 10rem; height: 200px;"> <!-- Primer producto -->
+            <a href = '#'><img class="card-img-top" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Card image cap"></a>
+            <div class="card-body">
+              <a href = '#'> <p class="card-text">Some quick example.</p> </a>
+            </div>
+          </div>
+
+          <div class="card marginL1" style="width: 10rem; height: 200px;"><!-- Segundo producto -->
+            <a href = '#'><img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Card image cap"></a>
+            <div class="card-body">
+              <a href = '#'> <p class="card-text">Some quick example.</p> </a>
+            </div>
+          </div>
+
+          <div class="card marginL1" style="width: 10rem; height: 200px;"> <!-- Tercer producto -->
+            <a href = '#'><img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Card image cap"></a>
+            <div class="card-body">
+              <a href = '#'> <p class="card-text">Some quick example.</p> </a>
+            </div>
+          </div>
+
+          <div class="card marginL1" style="width: 10rem; height: 200px;"> <!-- Tercer producto -->
+            <a href = '#'><img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Card image cap"></a>
+            <div class="card-body">
+              <a href = '#'> <p class="card-text">Some quick example.</p> </a>
+            </div>
+          </div>
+
+          <div class="card marginL1" style="width: 10rem; height: 200px;"> <!-- Cuarto producto -->
+            <a href = '#'><img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Card image cap"></a>
+            <div class="card-body">
+              <a href = '#'> <p class="card-text">Some quick example.</p> </a>
+            </div>
+          </div>
+
+          <div class="card marginL1" style="width: 10rem; height: 200px;"> <!-- Quinto producto -->
+            <a href = '#'><img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMxGp2y117csn__tbaL3kc4OqYz-rwTL6gOF83tTh263hwvlopOJisdINlPNjIrEvlss&usqp=CAU" alt="Card image cap"></a>
+            <div class="card-body">
+              <a href = '#'> <p class="card-text">Some quick example.</p> </a>
+            </div>
+          </div>
+
+        </div> <!-- Fin de la sección de productos similares -->
+        
+        <div class = "row" style="height: 100px;"> <!-- Seperación de secciones de 100px --> </div>
+
+        <div class = "row" style="height: 20px;"><!-- Seperación de secciones de 20px --> </div>
+        <div class = "row" style="height: 20px;"> <h4>Comentarios</h4> </div>
+        <div class = "row" style="height: 20px;"><!-- Seperación de secciones de 20px --> </div>
+
+        <div class = "row"> <!-- Sección de reseñas del producto -->
+
+          <div class = "row"><!-- Inicio del cuadro de comentarios -->
+
+            <form class="marginL2">
+              <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="El título va aquí">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Tu comentario va aquí">
+              </div>
+              <div class="col-auto my-1">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+           
+
+
+          </div><!-- Fin del cuadro de comentarios -->
+          
+          
+
+          <ul class="list-unstyled"><!-- Inicio lista de comentarios -->
+            <li class="media">
+              <img class="mr-3 img3" src="assets/images/user.jpeg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Comentario 1</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3 img3" src="assets/images/user.jpeg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Comentario 2</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3 img3" src="assets/images/user.jpeg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Comentario 3</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            
+          </ul><!-- Fin lista de comentarios -->
+            
+        </div> <!-- Fin de sección de reseñas del producto -->
+
+        <div class = "row" style="height: 20px;"> <!-- Separación de secciones de 20px -->
+
+        </div>
+
+    </div> <!-- Fin de container -->
+    
+    <footer class="bcBl" style="height: 200px;"> <!-- Pie de página -->
+    
+    </footer>
+    <script src ="assets/js/Producto.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

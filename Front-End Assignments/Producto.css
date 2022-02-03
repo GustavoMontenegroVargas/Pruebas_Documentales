@@ -1,0 +1,30 @@
+.img1 {
+    width: 850px;
+    height: 300px;  
+} 
+
+.img2{
+    width:100px;
+    height: 80px;
+}
+
+.img3{
+    width:80px;
+    height: 60px;
+}
+
+.marginL{
+    margin-left: 5px;
+}
+
+.marginL1{
+    margin-left: 20px;
+}
+
+.marginL2{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.bcBl{
+    background-color: black;
+}
