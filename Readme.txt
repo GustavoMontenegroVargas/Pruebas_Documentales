@@ -18,4 +18,6 @@ Puede ejecutar cada ejercicio en la página que se despliega al dar clic en el l
 5) Python Assignments - En esta carpeta encontará dos archivos de trabajos realizados con python. 
    - Predictive Analysis with Python - Se presenta en pdf la segunda parte del proyecto de ANZ, en el cual se deben tomar los datos
    bancarios para poder encontar patrones útiles que puedan ser ventajas para el negocio.
+   - Python Assignment - Pandas - Esta es una serie de ejercicios basados en un conjunto de datos, en donde se pide limpiar, manipular
+   y extraer cada petición de cada ejercicio. Son ejercicios de nivel intermedio para manejo de datos con Python. 
    
