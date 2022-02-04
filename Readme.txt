@@ -15,4 +15,7 @@ de productos. Puede ver la página funcionando con el LINK que viene en ese apar
 4) JavaScript_Assignments - En este apartado puede encontrar una serie de nueve ejercicios enfocados a la lógica de JS. 
 Puede ejecutar cada ejercicio en la página que se despliega al dar clic en el link que está en esta carpeta. 
 
-5) 
+5) Python Assignments - En esta carpeta encontará dos archivos de trabajos realizados con python. 
+   - Predictive Analysis with Python - Se presenta en pdf la segunda parte del proyecto de ANZ, en el cual se deben tomar los datos
+   bancarios para poder encontar patrones útiles que puedan ser ventajas para el negocio.
+   
