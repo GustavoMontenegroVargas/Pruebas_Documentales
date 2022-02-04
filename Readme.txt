@@ -9,4 +9,7 @@ Este repositorio contiene una muestra documental de habilidades adquiridas & alg
 2) Excel Assignments - En este apartado usted puede encontrar la presentación en pdf de la primera parte del proyecto de 
 limpieza de datos del proyecto de ANZ realizada con excel.
 
-3) 
+3) FrontEnd_Assignments - Esta carpeta contiene la maquetación con HTML, CSS & Bootstrap de una página orientada a la presentación
+de productos. Puede ver la página funcionando con el LINK que viene en ese apartado. 
+
+
