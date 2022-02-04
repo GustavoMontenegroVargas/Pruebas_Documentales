@@ -7,4 +7,4 @@ Esta es una página pensada para poder proyectar un producto principal y una ser
 Varios objetos están diseñados a partir de la estructura dada por Bootstrap 4. 
 Un punto importante de este diseño, es que el carrrusel de productos (Las imagenes principales que se deslizan) están controladas por las imágenes debajo de la principal, para efectos de mejor visualización de los productos. 
 
-Así mismo, cada página de productos tiene una sección de comentarios y un botón parr ralizar la compra. 
+Así mismo, cada página de productos tiene una sección de comentarios y un botón parr realizar la compra. 
