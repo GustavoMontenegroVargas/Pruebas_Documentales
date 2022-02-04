@@ -12,4 +12,7 @@ limpieza de datos del proyecto de ANZ realizada con excel.
 3) FrontEnd_Assignments - Esta carpeta contiene la maquetación con HTML, CSS & Bootstrap de una página orientada a la presentación
 de productos. Puede ver la página funcionando con el LINK que viene en ese apartado. 
 
+4) JavaScript_Assignments - En este apartado puede encontrar una serie de nueve ejercicios enfocados a la lógica de JS. 
+Puede ejecutar cada ejercicio en la página que se despliega al dar clic en el link que está en esta carpeta. 
 
+5) 
