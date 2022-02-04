@@ -6,6 +6,6 @@ Este repositorio contiene una muestra documental de habilidades adquiridas & alg
     - SQL aplicado a Ciencia de Datos
     - Certificado de programa virtual de manipulación de Big Data.
 
-2) Excel Assignments - En este apartado usted puede encontrar la primera parte del proyecto de limpieza de datos del proyecto de ANZ realizada con excel.
+2) Excel Assignments - En este apartado usted puede encontrar la presentación en pdf de la primera parte del proyecto de limpieza de datos del proyecto de ANZ realizada con excel.
 
 3) 
